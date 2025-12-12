@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BẢNG GIÁ ĐẠI LÝ BLUE OCEAN TRAVEL 2026</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; background: #f9f9f9; }
+        h1 { text-align: center; color: #d40000; }
+        h2 { color: #0033a0; border-bottom: 2px solid #0033a0; padding-bottom: 10px; }
+        h3 { color: #d40000; cursor: pointer; }
+        h3::before { content: "+ "; color: #0033a0; }
+        h3.collapsed::before { content: "- "; }
+        table { width: 100%; border-collapse: collapse; margin: 25px 0; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); display: none; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background: #e6f2ff; font-weight: bold; }
+        .note { color: red; font-weight: bold; text-align: center; margin: 30px 0; }
+        .tour-details { margin-bottom: 20px; }
+        @media (max-width: 768px) { table, th, td { font-size: 14px; } }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('h3').forEach(header => {
+                header.addEventListener('click', () => {
+                    const table = header.nextElementSibling;
+                    if (table.style.display === 'none' || table.style.display === '') {
+                        table.style.display = 'table';
+                        header.classList.add('collapsed');
+                    } else {
+                        table.style.display = 'none';
+                        header.classList.remove('collapsed');
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+<h1>BẢNG GIÁ DÀNH RIÊNG CHO ĐẠI LÝ<br>BLUE OCEAN TRAVEL - 2026</h1>
+<p class="note">CHỈ DÀNH CHO ĐẠI LÝ - VUI LÒNG KHÔNG CHIA SẺ CÔNG KHAI!</p>
+
+<h2>Northern Vietnam</h2>
+<div class="tour-details">
+    <h3>HA NOI DISCOVERY (Code: HN 4D3N1 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>HN City PVT</td><td>120.000</td></tr>
+        <tr><td>Halong Day Tour PVT</td><td>800.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>HA NOI - HA LONG - TRANG AN (Code: HN 5D4N1 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>HN City PVT</td><td>120.000</td></tr>
+        <tr><td>Halong Day Tour PVT</td><td>800.000</td></tr>
+        <tr><td>Ninh Binh PVT</td><td>270.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>HANOI - SAPA - HALONG BAY (Code: HN 6D5N1 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>Mountain Railway</td><td>150.000</td></tr>
+        <tr><td>Fansipan PVT</td><td>150.000</td></tr>
+        <tr><td>Cat Cat Village</td><td>850.000</td></tr>
+        <tr><td>Halong 2D1N Tour PVT</td><td>2.400.000</td></tr>
+    </table>
+</div>
+
+<h2>Central Vietnam</h2>
+<div class="tour-details">
+    <h3>DANANG - HOIAN - BANA - HUE (Code: MT 4D3N1 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>Hoian PVT</td><td>140.000</td></tr>
+        <tr><td>Bana Hills PVT</td><td>1.250.000</td></tr>
+        <tr><td>Hue Imperial Citadel</td><td>200.000</td></tr>
+        <tr><td>Guide overnight</td><td>300.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>DANANG - HOIAN - COCONUT VILLAGE - BANA HILLS (Code: MT 4D3N4 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>Hoian PVT</td><td>140.000</td></tr>
+        <tr><td>Cam Thanh Coconut Forest</td><td>70.000</td></tr>
+        <tr><td>Marble Mountain PVT</td><td>70.000</td></tr>
+        <tr><td>Bana Hills PVT</td><td>1.250.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>DANANG - HOI AN - CAM THANTH HUE - BANA HILLS (Code: MT 5D4N2 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>Hoian PVT</td><td>140.000</td></tr>
+        <tr><td>Bana Hills PVT</td><td>1.250.000</td></tr>
+        <tr><td>Marble Mountain PVT</td><td>70.000</td></tr>
+        <tr><td>Hue Imperial Citadel</td><td>200.000</td></tr>
+        <tr><td>Guide overnight</td><td>300.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>DANANG - HOIAN - MY SON - BANAHILLS - HUE (Code: MT 6D5N2 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>Hoian PVT</td><td>140.000</td></tr>
+        <tr><td>My Son</td><td>150.000</td></tr>
+        <tr><td>Bana Hills PVT</td><td>1.250.000</td></tr>
+        <tr><td>Marble Mountain PVT</td><td>70.000</td></tr>
+        <tr><td>Hue Imperial Citadel</td><td>200.000</td></tr>
+        <tr><td>Guide overnight</td><td>300.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>UNESCO HERITAGE ROUTE (Code: MT 6D5N3 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>Hoian PVT</td><td>140.000</td></tr>
+        <tr><td>My Son</td><td>150.000</td></tr>
+        <tr><td>Bana Hills PVT</td><td>1.250.000</td></tr>
+        <tr><td>Marble Mountain PVT</td><td>70.000</td></tr>
+        <tr><td>Combo Hue Imperial Citadel + 2 Kings Tombs</td><td>420.000</td></tr>
+        <tr><td>Guide overnight</td><td>300.000</td></tr>
+    </table>
+</div>
+
+<h2>Southern Vietnam</h2>
+<div class="tour-details">
+    <h3>HO CHI MINH CITY DISCOVERY (Code: HCM 4D3N1 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>HCM City PVT</td><td>100.000</td></tr>
+        <tr><td>Mekong Delta PVT</td><td>100.000</td></tr>
+        <tr><td>Cuchi Tunnel PVT</td><td>125.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>HO CHI MINH CITY DISCOVERY (Code: HCM 4D3N - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>HCM City PVT</td><td>100.000</td></tr>
+        <tr><td>Mekong Delta PVT</td><td>100.000</td></tr>
+        <tr><td>Cuchi Tunnel PVT</td><td>125.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>HO CHI MINH - DANANG (Code: HCM 6D5N1 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>HCM City PVT</td><td>100.000</td></tr>
+        <tr><td>Mekong Delta PVT</td><td>100.000</td></tr>
+        <tr><td>Cuchi Tunnel PVT</td><td>125.000</td></tr>
+        <tr><td>Hoian PVT</td><td>140.000</td></tr>
+        <tr><td>Cam Thanh Coconut Forest</td><td>70.000</td></tr>
+        <tr><td>Marble Mountain PVT</td><td>70.000</td></tr>
+        <tr><td>Bana Hills PVT</td><td>1.250.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>HO CHI MINH - DANANG (Code: HCM 6D5N1 - SIC)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>HCM City SIC</td><td>385.000</td></tr>
+        <tr><td>Mekong Delta SIC</td><td>585.000</td></tr>
+        <tr><td>Cuchi Tunnel SIC</td><td>475.000</td></tr>
+        <tr><td>Hoian + Cam Thanh Coconut + Marble Mountain SIC</td><td>700.000</td></tr>
+        <tr><td>Bana Hills SIC</td><td>1.080.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>HO CHI MINH - DANANG - HA NOI (Code: HCM 9D8N1 - PVT)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>HCM City PVT</td><td>100.000</td></tr>
+        <tr><td>Mekong Delta PVT</td><td>100.000</td></tr>
+        <tr><td>Cuchi Tunnel PVT</td><td>125.000</td></tr>
+        <tr><td>Hoian PVT</td><td>140.000</td></tr>
+        <tr><td>Cam Thanh Coconut Forest</td><td>70.000</td></tr>
+        <tr><td>Marble Mountain PVT</td><td>70.000</td></tr>
+        <tr><td>Bana Hills PVT</td><td>1.250.000</td></tr>
+        <tr><td>HN City PVT</td><td>120.000</td></tr>
+        <tr><td>Ninh Binh PVT</td><td>270.000</td></tr>
+        <tr><td>Halong 2D1N Tour PVT</td><td>2.300.000</td></tr>
+    </table>
+</div>
+<div class="tour-details">
+    <h3>HO CHI MINH - DANANG - HA NOI (Code: HCM 9D8N1 - SIC)</h3>
+    <table>
+        <tr><th>Loại/Item</th><th>Giá (VND)</th></tr>
+        <tr><td>HCM City SIC</td><td>385.000</td></tr>
+        <tr><td>Mekong Delta SIC</td><td>585.000</td></tr>
+    </table>
+</div>
+
+</body>
+</html>
